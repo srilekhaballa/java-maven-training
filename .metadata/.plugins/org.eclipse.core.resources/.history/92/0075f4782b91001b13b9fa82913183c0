@@ -1,0 +1,61 @@
+package javamaventraining;
+
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class UtilityTest {
+	
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("before class");
+	}
+	
+	@Before
+	public void setUp() throws Exception {  
+		System.out.println("before");  
+	}  
+	
+	@Test
+	public void testFindSum() {  
+		System.out.println("test case find sum : ");  
+		assertEquals(3,u.sum(2,1));  
+	}  
+	
+	@Test
+	public void testFindProduct() {
+		System.out.println("test case find product : ");
+		assertEquals(6,u.product(2, 3));
+	}
+	
+	@Test
+	public void testFindSquare() {
+		System.out.println("test case find square : ");
+		assertEquals(4,u.square(2));
+	}
+	
+	@Test
+	public void testFindMean() {
+		System.out.println("test case find mean : ");
+		assertEquals(2,u.mean(2,3));
+	}
+	
+	@After  
+	public void tearDown() throws Exception {  
+		System.out.println("after");  
+	}  
+	
+	@AfterClass  
+	public static void tearDownAfterClass() throws Exception {  
+		System.out.println("after class");  
+	}  
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,39 @@
+package javamaventraining;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class UtilityTest {
+
+	Utility  u1;
+	@Before
+	public void setUp() throws Exception {
+		u1 =new Utility();
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testSum() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testProduct() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSquare() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMean() {
+		fail("Not yet implemented");
+	}
+
+}

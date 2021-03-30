@@ -1,0 +1,14 @@
+package javamaventraining;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+public class Utility {
+		
+	private static final Logger logger = LogManager.getLogger(Utility.class);
+	public static void main(String[] args) {
+		
+
+	}
+
+}

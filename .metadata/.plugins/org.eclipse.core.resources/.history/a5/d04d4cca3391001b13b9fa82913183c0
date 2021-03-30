@@ -1,0 +1,43 @@
+package javamaventraining;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class UtilityTest {
+
+	Utility  u1;
+	@Before
+	public void setUp() throws Exception {
+		u1 =new Utility();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		u1 = null;
+	}
+
+	@Test
+	public void testSum() {
+		assertEquals(u1.sum(2, 4), 6);
+		}
+
+	@Test
+	public void testProduct() {
+		assertEquals(u1.product(2, 4), 8);
+	}
+
+	@Test
+	public void testSquare() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMean() {
+		fail("Not yet implemented");
+	}
+
+}

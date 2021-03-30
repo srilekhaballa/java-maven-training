@@ -1,0 +1,18 @@
+package javamaventraining;
+
+import static org.junit.Assert.*;
+import 
+import org.junit.Test;
+
+public class UtilityTest {
+	
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("before class");
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

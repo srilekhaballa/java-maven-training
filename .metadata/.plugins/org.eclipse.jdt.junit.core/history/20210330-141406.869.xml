@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UtilityTest" project="javamaventraining" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="javamaventraining.UtilityTest" time="0.285">
+    <testcase name="testSum" classname="javamaventraining.UtilityTest" time="0.283"/>
+    <testcase name="testMean" classname="javamaventraining.UtilityTest" time="0.0"/>
+    <testcase name="testProduct" classname="javamaventraining.UtilityTest" time="0.001"/>
+    <testcase name="testSquare" classname="javamaventraining.UtilityTest" time="0.001"/>
+  </testsuite>
+</testrun>
